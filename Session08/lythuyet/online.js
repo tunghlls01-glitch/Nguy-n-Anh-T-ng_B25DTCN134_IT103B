@@ -53,9 +53,9 @@
 
 let arr = [10, 20, 30, 40];
 
-// arr.forEach(function(element, index){
-//     console.log(element, index);
-// });
+arr.forEach(function(element, index){
+    console.log(element, index);
+});
 
 //.map()
 
@@ -104,3 +104,4 @@ console.log(result);
 //     return element > 1;
 // }); // true
 // console.log(result2);
+
