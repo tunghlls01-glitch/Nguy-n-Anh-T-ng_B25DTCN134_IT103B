@@ -53,7 +53,3 @@ function deleteInitialTodos(index) {
         renderInitialTodos();
     }
 }
-
-function update(index) {
-    let newTask = 
-}

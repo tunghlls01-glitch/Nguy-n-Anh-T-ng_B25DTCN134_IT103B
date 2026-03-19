@@ -21,6 +21,11 @@ function generateRankingReport(minMatches, players) {
 
         return { ...p, performanceScore, efficiencyScore };
     });
+    arrMap.sort((a, b) =>
+        b.efficiencyScore - a.efficiencyScore ||
+        b.performanceScore - a.performanceScore ||
+        b.goals - a.goals
+    );
 
     arrMap.forEach((p, index) => {
         console.log(
@@ -34,6 +39,12 @@ function generateRankingReport(minMatches, players) {
         console.log(`Cầu thủ xuất sắc nhất: ${arrMap[0].name}`);
     }
 
+    const top3 = arrMap.slice(0, 3);
+
+    const avgEfficiency =
+        top3.reduce((sum, p) => sum + p.efficiencyScore, 0) / top3.length;
+
+    console.log(`Trung bình efficiency top 3: ${avgEfficiency.toFixed(2)}`);
 }
 
 generateRankingReport(30, players);

@@ -26,7 +26,7 @@ function renderProducts() {
    document.getElementById("product-list").innerHTML = html;
 }
 renderProducts();
-
+     
 let form = document.getElementById("product-form");
 
 form.addEventListener("submit", function(event) {

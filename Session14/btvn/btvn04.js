@@ -65,3 +65,4 @@ function editPrice(index) {
     products[index].price = Number(newPrice);
     renderProducts();
 }
+

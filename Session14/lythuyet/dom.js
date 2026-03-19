@@ -40,7 +40,7 @@ function increaseSize() {
 function addCourse() {
     document.getElementById("list").innerHTML = 
     `
-     <li>C++</li>
+        <li>C++</li>
         <li>C</li>
         <li>JS</li>
     `

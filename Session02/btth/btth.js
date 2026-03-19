@@ -42,6 +42,7 @@ if(date == 0){
 console.log("--- HỆ THỐNG MƯỢN TRẢ ---");
 console.log("người dùng:", userName);
 console.log("Quyền hạn: ", role);
-console.log();
+
+
 
 

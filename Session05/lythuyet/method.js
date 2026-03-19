@@ -2,7 +2,7 @@
 
 Các phương thức làm việc với mảng giúp xử lý các nghiệp vụ nhaanh hơn.
 
-`    1. indexOf(): kiểm tra xem ohaanf tử có tồn tại trong mảng hay không ?
+`    1. indexOf(): kiểm tra xem phần tử có tồn tại trong mảng hay không ?
         + Nếu có trả về index 
         + Nếu không có trả về -1
     2. includes(): kiểm tra phần tử có tồn tại trong mảng hay không

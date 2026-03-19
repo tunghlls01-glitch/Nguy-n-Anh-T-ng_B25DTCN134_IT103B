@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            border: 1px black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" class="editButton">
+        <button id="buttonOne" onclick="oppenButton_one()">1</button>
+        <button id="buttonTwo" onclick="oppenButton_two()">2</button>
+        <button id="buttonThree" onclick="oppenButton_three()">3</button>
+        <button id="buttonFour" onclick="oppenButton_four()">4</button>
+        <button id="buttonFive" onclick="oppenButton_five()">5</button>
+    </form>
+    <script>
+        function oppenButton_one() {
+            document.getElementById("buttonOne").style.background="red"; 
+        }
+        function oppenButton_two() {
+            document.getElementById("buttonTwo").style.background="red";
+        }
+        function oppenButton_three() {
+            document.getElementById("buttonThree").style.background="red";
+        }
+        function oppenButton_four() {
+            document.getElementById("buttonFour").style.background="red";
+        }
+        function oppenButton_five() {
+            document.getElementById("buttonFive").style.background="red";
+        }
+    </script>
+</body>
+</html>

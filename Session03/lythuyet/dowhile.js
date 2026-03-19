@@ -10,8 +10,6 @@
     - chạy lần đo đầu tiên sau đó kiểm tra điều kiện
     + Nếu điều kiện đúng ==> chạy tiếp do
     +Nếu điều kiện sai ==> Dừng chương trinh
-
-
 */
 do {
     choose = +prompt("mời nhập lựa chọn");
