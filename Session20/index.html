@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ero-name {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>QUẢN LÝ DANH MỤC</h1>
+    <input type="text" placeholder="" id="categoryName"> <span>Tên danh mục</span><br>
+    <p class="ero-name" style="display: none;">Tên đã tồn tại</p>
+    <button onclick="addCategory()">Thêm</button><br>
+      <input type="text" name="" id="filterCategories"> <button onclick="filterCategories()">Tìm kiếm</button> <br>
+    <h2>Danh sách danh mục</h2>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <th>Tên danh mục</th>
+            <th>Hành động</th>
+        </tr>
+        <tbody id="tbody">
+            <tr>
+                <td>1</td>
+                <td>Áo</td>
+                <td><button>Sửa</button> <button>xóa</button></td>
+            </tr>
+        </tbody>
+        
+    </table>
+    <script src="./index.js"></script>
+</body>
+</html>
